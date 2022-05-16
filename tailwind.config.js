@@ -3,18 +3,22 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    fontFamily: {
+      'body-text':  ['lato', 'sans-serif'],
+       'title-text': ['Merriweather', 'serif'],
+    },
     container: {
       center: true,
-      padding: '2rem'
+      padding: '10rem',
+      
     },
     extend: {
-      fontFamily: {
-        'body-text':  ['lato', 'sans-serif'],
-      },
+      
       colors: {
         "p-bl": "#1C2739",
         "bege": "#F1F1E6", 
         "dark-yellow": "#DAA21C", 
+        "w-f": "#f1f1f6",
         
       },
 
